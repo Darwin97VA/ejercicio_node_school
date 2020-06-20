@@ -59,6 +59,8 @@ input.forEach(goes=>{
     going(change, number)
 })
 
+const distancia = Math.abs(santa.x) + Math.abs(santa.y)
+
 console.log(
-    santa
+    distancia
 )
